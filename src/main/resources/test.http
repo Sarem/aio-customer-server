@@ -1,0 +1,21 @@
+#0?_source_includes=aio-daily-*
+
+###
+# curl -X GET "localhost:9200/twitter/_doc/0?_source=*.id,retweeted&pretty"
+POST http://10.254.4.17:9200/_doc/0?_source=false
+
+###
+# curl http://localhost:9200/_aliases?pretty=true
+GET http://10.254.4.17:9200/_aliases?pretty=true
+
+###
+# curl -X GET "localhost:9200/twitter?pretty"
+GET http://10.254.4.17:9200/aio-daily-*?pretty
+
+###
+
+POST https://tv-ext.aionet.ir/Catherine/api/53dceb3c-69de-4ef3-ac07-c422471831e97.0json8967603218900195425client/channels/linear/getUrl
+
+{"channelId":"52","sessionId":"5d7a31240ed6e58b-5e36697190a0aa2f-4dca7291342fc945-218f411ad09e5f61","profileGuid":"2260098679532838030","protocols":"HLS_SECURE","locale":"fa-IR","pictureTypes":"_2D","audioFormats":"AAC","channelType":"TV","savePosition":{"position":1579086751153,"type":"TV","contentId":"52"},"delay":0,"playbackType":"LIVE"}
+
+###
